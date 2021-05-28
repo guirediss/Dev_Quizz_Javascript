@@ -10,7 +10,7 @@ let actualQuestion = 0
 
 const questions = [
     {
-      "question": " - PHP foi desenvolvido para qual fim?",
+      "question": " - O PHP foi desenvolvido para qual fim?",
       "answers": [
         {
           "answer": "back-end",
@@ -69,6 +69,27 @@ const questions = [
         {
           "answer": "/",
           "correct": false
+        },
+      ]
+    },
+    {
+      "question": " - Qual tag usamos para criar um parágrafo no HTML?",
+      "answers": [
+        {
+          "answer": "<h1>",
+          "correct": false
+        },
+        {
+          "answer": "<img>",
+          "correct": false
+        },
+        {
+          "answer": "<ul>",
+          "correct": false
+        },
+        {
+          "answer": "<p>",
+          "correct": true
         },
       ]
     },
