@@ -93,6 +93,28 @@ const questions = [
         },
       ]
     },
+
+    {
+      "question": " - Qual tag usamos para criar um parágrafo no HTML?",
+      "answers": [
+        {
+          "answer": "<h1>",
+          "correct": false
+        },
+        {
+          "answer": "<img>",
+          "correct": false
+        },
+        {
+          "answer": "<ul>",
+          "correct": false
+        },
+        {
+          "answer": "<p>",
+          "correct": true
+        },
+      ]
+    },
 ]
 
 // first question
