@@ -95,7 +95,7 @@ const questions = [
     },
 
     {
-      "question": " - Para o elemento basear sua posição usamos o position:?",
+      "question": " - Para o elemento basear sua posição no elemento pai usamos o position:?",
       "answers": [
         {
           "answer": "relative",
