@@ -95,23 +95,23 @@ const questions = [
     },
 
     {
-      "question": " - Qual tag usamos para criar um parágrafo no HTML?",
+      "question": " - Para o elemento basear sua posição usamos o position:?",
       "answers": [
         {
-          "answer": "<h1>",
+          "answer": "relative",
           "correct": false
         },
         {
-          "answer": "<img>",
+          "answer": "fixed",
           "correct": false
         },
         {
-          "answer": "<ul>",
-          "correct": false
-        },
-        {
-          "answer": "<p>",
+          "answer": "absolute",
           "correct": true
+        },
+        {
+          "answer": "static",
+          "correct": false
         },
       ]
     },
