@@ -229,6 +229,13 @@ function showSuccessMessage() {
     const totalQuestions = document.querySelector("#questions-qty")
     totalQuestions.textContent = questions.length
 
+    const msgFinal = document.querySelector("#msg-final")
+    const changeFinal = "Que pena, vc não passou no teste."
+    if(totalQuestions < 3){
+      msgFinal.textContent = changeFinal
+}
+
+
 }
 
 // hide or show score
@@ -246,6 +253,7 @@ restartBtn.addEventListener("click", function(){
     hideOrShowQuizz();
     init()
 })
+
 
 // inicialize quizz
 init()
